@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Customer list</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customers.css">
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Kreon&family=Pattaya&family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+<body>
+  <div class="heading">
+    <h1>Customer List</h1>
+  </div>
+  <div class="table">
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Amount</th>
+      </tr>
+      <%data.forEach(function(x){%>
+      <tr>
+        <td><a href='/customers/<%=x.id%>'><%-x.name%></a></td>
+        <td><%-x.amount%></td>
+      </tr>
+      <%})%>
+    </table>
+  </div>
+</body>
+
+</html>

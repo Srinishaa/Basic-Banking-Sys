@@ -1,0 +1,40 @@
+body{
+  background-image: url("../bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.heading h1 {
+  padding: 30px;
+  text-align: center;
+  font-family: 'Pattaya', sans-serif;
+  font-family: Pattaya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  color: white;
+  line-height: 50px;
+}
+.heading p{
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.custBtn btn{
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
+}
+.custBtn{
+  text-align: center;
+  padding-top: 50px;
+}
+footer{
+  font-style: italic;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
